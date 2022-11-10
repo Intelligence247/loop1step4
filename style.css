@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #adc4d8;
+}
+
+main {
+    background-color: #fff;
+    margin: auto;
+    position: relative;
+    width: 24rem;
+    height: 26.5rem;
+    margin-top: 5rem;
+    z-index: -2;
+
+}
+
+header {
+    height: 3rem;
+    background-color: #608bd3;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    padding: 0rem 1rem;
+    justify-content: space-between;
+}
+
+.circ {
+    height: 0.5rem;
+    width: 0.5rem;
+    background-color: white;
+    border-radius: 50%;
+}
+
+header h1 {
+    font-size: 16px;
+}
+
+header p {
+    font-size: 23px;
+}
+
+.circm {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.today {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: #d8dada;
+    font-size: 13px;
+    margin-top: 1rem;
+
+}
+
+.lin {
+    height: 1px;
+    width: 9rem;
+    background-color: #d8dada;
+}
+
+.himark {
+    margin-left: 1rem;
+    font-size: 15px;
+}
+
+.first {
+    color: #d8dada;
+    font-size: 14px;
+    font-weight: 900;
+    margin: 0.4rem 0rem;
+}
+
+.hi {
+    width: 16rem;
+    height: 3rem;
+    background-color: #adc4d8;
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0rem 0.5rem;
+}
+
+.x {
+    border-left: 1rem solid transparent;
+    border-bottom: 2rem solid transparent;
+    border-right: 2rem solid #adc4d8;
+    width: max-content;
+    position: absolute;
+    top: 0rem;
+    left: -1.4rem;
+    z-index: -1;
+
+
+}
+
+.planb {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.send {
+    height: 3rem;
+    background-color: #f0f0f0;
+    display: flex;
+    width: 18rem;
+    margin-left: 5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-right: 1rem;
+    position: relative;
+    padding: 0rem 0.5rem;
+}
+
+.tri {
+
+    border-left: 2rem solid #f0f0f0;
+    border-bottom: 2rem solid transparent;
+    border-top: 0rem solid transparent;
+    border-right: 2rem solid transparent;
+    width: max-content;
+    position: absolute;
+    top: 0rem;
+    right: -2.65rem;
+    z-index: -1;
+
+}
+
+.but {
+    width: 5.5rem;
+    height: 2.3rem;
+
+}
+
+.block {
+    background-color: #febab9;
+    width: 13.5rem;
+    margin-top: 0.7rem;
+    margin-bottom: 1rem;
+    height: 2.3rem;
+    display: flex;
+    align-items: center;
+    margin-left: 9.5rem;
+    margin-right: 1rem;
+    padding: 0rem 0.5rem;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #d8dada;
+    padding-top: 1rem;
+    margin: 1rem;
+
+
+}
+
+input {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    border: none;
+    background-color: white;
+    color: #608bd3;
+}
